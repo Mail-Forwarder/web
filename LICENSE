@@ -219,3 +219,12 @@ which is presumably licensed as follows:
    (c) Marak Squires (Original Library)
    (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) (Additional Functionality)
    released under MIT License
+* Materialize https://github.com/Dogfalo/materialize
+   (c) 2017 Materialize
+   released under MIT License
+* jQuery https://jquery.org
+   (c) JS Foundation
+   released under MIT License
+* Material Design Icons https://github.com/google/material-design-icons
+   (c) Google
+   released under Apache License 2.0

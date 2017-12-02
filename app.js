@@ -9,6 +9,8 @@ var express = require('express');
 var app = express();
 // Set view engine to ejs
 app.set('view engine', 'ejs');
+// Static files
+app.use('/static', express.static('public'));
 
 // Start web server
 app.listen(PORT, function() {
