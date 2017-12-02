@@ -231,3 +231,7 @@ which is presumably licensed as follows:
 * file-morgan https://github.com/Tarabass/file-morgan
    (c) 2017 Peter Rietveld <p.rietveld@live.com>
    released under MIT License
+* body-parser https://github.com/expressjs/body-parser
+   (c) 2014 Jonathan Ong <me@jongleberry.com>
+   (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+   released under MIT License

@@ -17,6 +17,12 @@ app.use(fileMorgan('combined', {
     useStreamRotator: true,
     dateFormat: 'DD-MM-YY'
 }));
+// body-parser middleware
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
 // Start web server
 app.listen(PORT, function() {
