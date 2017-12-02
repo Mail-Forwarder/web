@@ -228,3 +228,6 @@ which is presumably licensed as follows:
 * Material Design Icons https://github.com/google/material-design-icons
    (c) Google
    released under Apache License 2.0
+* file-morgan https://github.com/Tarabass/file-morgan
+   (c) 2017 Peter Rietveld <p.rietveld@live.com>
+   released under MIT License

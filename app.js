@@ -11,6 +11,12 @@ var app = express();
 app.set('view engine', 'ejs');
 // Static files
 app.use('/static', express.static('public'));
+// Request logger
+var fileMorgan = require('file-morgan');
+app.use(fileMorgan('combined', {
+    useStreamRotator: true,
+    dateFormat: 'DD-MM-YY'
+}));
 
 // Start web server
 app.listen(PORT, function() {

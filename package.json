@@ -24,6 +24,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "file-morgan": "^1.1.1"
   }
 }
