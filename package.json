@@ -1,0 +1,23 @@
+{
+  "name": "mail-forwarder-web",
+  "version": "0.0.1",
+  "description": "The font-/backend from Mail-Forwarder.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mail-Forwarder/web.git"
+  },
+  "keywords": [
+    "mail",
+    "forwarder"
+  ],
+  "author": "Mail-Forwarder Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Mail-Forwarder/web/issues"
+  },
+  "homepage": "https://github.com/Mail-Forwarder/web#readme"
+}
