@@ -7,8 +7,19 @@
         <link rel="stylesheet" href="public/css/materialize.css">
   </head>
   <body>
+      <!---body-->
 
-    <!---Loading Scripts--------------------------------->
-    <script src="public/js/materialize.js"></script>
+      <form class="" action="home.ejs" method="post">
+        E-Mail oder Username:<br>
+        <input type="email/text" size="40" maxlength="250" name="email"><br><br>
+
+        Dein Passwort:<br>
+        <input type="password" size="40"  maxlength="250" name="passwort"><br>
+
+        <input type="submit" value="Abschicken">
+      </form>
+      <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js" /></script>
   </body>
 </html>
