@@ -24,6 +24,18 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+// Service redirects
+app.get('/redirect/:service', function(req,res) {
+    switch(req.params.service) {
+        case 'discord':
+            res.redirect('https://discord.gg/vNbahNE');
+            break;
+        default:
+            res.redirect('/');
+            break;
+    }
+});
+
 // Start web server
 app.listen(PORT, function() {
     logger.success('Now listening on port ' + PORT);
