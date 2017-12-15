@@ -1,3 +1,18 @@
 {
-    
+    "lang_info": {
+        "authors": [
+            "GitHub/Moquo",
+            "GitHub/BenKato151"
+        ],
+        "contributors": []
+    },
+    "meta": {
+        "name": "Mail-Forwarder",
+        "description": "Mail-Forwarder ist dein sicherster E-Mail Forwarder.",
+        "keywords": "mail,forwarder,sicher,pgp,weiterleitung,nodejs"
+    },
+    "sites": {
+        "home": {
+        }
+    }
 }
