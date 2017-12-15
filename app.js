@@ -30,6 +30,13 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+app.get('/', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/home.ejs', {
+        lang: lang_de
+    })
+});
+
 // Service redirects
 app.get('/redirect/:service', function(req,res) {
     switch(req.params.service) {
