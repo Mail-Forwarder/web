@@ -4,6 +4,12 @@ const PORT = process.env.MF_PORT || 9068;
 // Logger
 var logger = require('./logger.js');
 
+// Languages
+// Filesystem var
+var fs = require('fs');
+// German language
+var lang_de = require('./lang/de.json');
+
 // Express basic stuff
 var express = require('express');
 var app = express();
