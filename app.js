@@ -30,11 +30,12 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+// Page: Home
 app.get('/', function(req, res) {
     // TODO: Add lang check / Add multiple languages
     res.render('pages/home.ejs', {
         lang: lang_de
-    })
+    });
 });
 
 // Service redirects
@@ -42,6 +43,9 @@ app.get('/redirect/:service', function(req,res) {
     switch(req.params.service) {
         case 'discord':
             res.redirect('https://discord.gg/vNbahNE');
+            break;
+        case 'github':
+            res.redirect('https://github.com/mail-forwarder');
             break;
         default:
             res.redirect('/');
