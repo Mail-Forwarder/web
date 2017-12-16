@@ -11,6 +11,12 @@
         "description": "Mail-Forwarder ist dein sicherster E-Mail Forwarder.",
         "keywords": "mail,forwarder,sicher,pgp,weiterleitung,nodejs"
     },
+    "partials": {
+        "navbar": {
+            "features": "Funktionen",
+            "panel": "Accountverwaltung"
+        }
+    },
     "sites": {
         "home": {
         }
