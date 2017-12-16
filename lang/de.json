@@ -17,7 +17,12 @@
             "panel": "Accountverwaltung"
         },
         "footer": {
-            "legal": "Legales"
+            "legal": "Legales",
+            "sections": {
+                "social": {
+                    "name": "Soziales"
+                }
+            }
         }
     },
     "sites": {
