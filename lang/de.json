@@ -19,6 +19,14 @@
         "footer": {
             "legal": "Legales",
             "sections": {
+                "platform": {
+                    "name": "Mail-Forwarder",
+                    "links": {
+                        "home": "Startseite",
+                        "sitemap": "Sitemap",
+                        "credits": "Credits"
+                    }
+                },
                 "social": {
                     "name": "Soziales"
                 }
