@@ -47,6 +47,9 @@ app.get('/redirect/:service', function(req,res) {
         case 'github':
             res.redirect('https://github.com/mail-forwarder');
             break;
+        case 'twitter':
+            res.redirect('https://twitter.com/mail_forwarder');
+            break;
         default:
             res.redirect('/');
             break;
