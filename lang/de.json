@@ -15,6 +15,9 @@
         "navbar": {
             "features": "Funktionen",
             "panel": "Accountverwaltung"
+        },
+        "footer": {
+            "legal": "Legales"
         }
     },
     "sites": {
