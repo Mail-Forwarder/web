@@ -7,7 +7,7 @@ var parse = function(lang) {
     var rawLang = JSON.stringify(lang);
 
     // Replace vars
-    rawLang = replaceString(rawLang, '%name', lang.meta.name);
+    rawLang = replaceString(rawLang, '%name%', lang.meta.name);
 
     // JSONize and return
     var lang = JSON.parse(rawLang);
