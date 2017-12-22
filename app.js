@@ -38,6 +38,14 @@ app.get('/', function(req, res) {
     });
 });
 
+// Page: Credits
+app.get('/credits', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/credits.ejs', {
+        lang: lang_de
+    });
+});
+
 // Service redirects
 app.get('/redirect/:service', function(req,res) {
     switch(req.params.service) {
