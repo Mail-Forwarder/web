@@ -10,7 +10,7 @@ var parseLang = require('./parseLang.js');
 // Filesystem var
 var fs = require('fs');
 // German language
-var lang_de = require('./lang/de.json');
+var lang_de = parseLang(require('./lang/de.json'));
 
 // Express basic stuff
 var express = require('express');
