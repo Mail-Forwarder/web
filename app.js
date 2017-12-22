@@ -4,9 +4,6 @@ const PORT = process.env.MF_PORT || 9068;
 // Logger
 var logger = require('./logger.js');
 
-// replace-string
-var replaceString = require('replace-string');
-
 // Languages
 // Parse lang
 var parseLang = require('./parseLang.js');
