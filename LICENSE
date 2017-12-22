@@ -235,3 +235,6 @@ which is presumably licensed as follows:
    (c) 2014 Jonathan Ong <me@jongleberry.com>
    (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
    released under MIT License
+* replace-string https://github.com/sindresorhus/replace-string
+   (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+   released under MIT License
