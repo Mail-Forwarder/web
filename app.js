@@ -8,6 +8,8 @@ var logger = require('./logger.js');
 var replaceString = require('replace-string');
 
 // Languages
+// Parse lang
+var parseLang = require('./parseLang.js');
 // Filesystem var
 var fs = require('fs');
 // German language
