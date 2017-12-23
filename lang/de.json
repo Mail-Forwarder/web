@@ -9,7 +9,7 @@
     "meta": {
         "name": "Mail-Forwarder",
         "description": "Mail-Forwarder ist dein sicherster E-Mail Forwarder.",
-        "keywords": "mail,forwarder,sicher,pgp,weiterleitung,nodejs"
+        "keywords": "Mail, Forwarder, Sicher, PGP, Weiterleitung, Node.js"
     },
     "partials": {
         "navbar": {
