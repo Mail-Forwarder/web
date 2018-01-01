@@ -50,6 +50,14 @@ app.get('/credits', function(req, res) {
     });
 });
 
+// Page: Panel/Login
+app.get('/panel/login', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/panel/login.ejs', {
+        lang: lang_de
+    });
+});
+
 // Service redirects
 app.get('/redirect/:service', function(req,res) {
     switch(req.params.service) {
