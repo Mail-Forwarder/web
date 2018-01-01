@@ -1,3 +1,5 @@
+// Load env variables (dotenv)
+require('dotenv').config();
 // ENV vars
 const PORT = process.env.MF_PORT || 9068;
 
