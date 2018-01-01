@@ -39,6 +39,11 @@
                 "title": "Was sind wir?",
                 "text": "%name% ist ein Mailweiterleitungs-Service, welcher dir deine E-Mails sicher und auf Wunsch auch verschlüsselt weiterleitet."
             }
+        },
+        "panel": {
+            "login": {
+                "logo": "Logo"
+            }
         }
     }
 }
