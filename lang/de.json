@@ -46,7 +46,8 @@
                 "textbox": {
                     "user": "Username/E-Mail",
                     "password": "Passwort"
-                }
+                },
+                "loginbtn": "Einloggen"
             }
         }
     }
