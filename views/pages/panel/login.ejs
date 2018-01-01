@@ -12,11 +12,18 @@
             <div class="row">
                 <div class="col s6 offset-s3">
                     <div class="card-panel grey lighten-4">
+                        <!-- TODO: Change color of inputs when create-home is merged to master -->
                         <form method="post" action="#" autocomplete="off">
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input id="user" type="text" />
+                                    <input id="user" type="text" name="user" />
                                     <label for="user"><%= lang.sites.panel.login.textbox.user %></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="password" type="password" name="password" />
+                                    <label for="password"><%= lang.sites.panel.login.textbox.password %></label>
                                 </div>
                             </div>
                         </form>

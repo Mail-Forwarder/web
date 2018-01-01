@@ -44,7 +44,8 @@
             "login": {
                 "logo": "Logo",
                 "textbox": {
-                    "user": "Username/E-Mail"
+                    "user": "Username/E-Mail",
+                    "password": "Passwort"
                 }
             }
         }
