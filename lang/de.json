@@ -38,6 +38,34 @@
             "whatarewe": {
                 "title": "Was sind wir?",
                 "text": "%name% ist ein Mailweiterleitungs-Service, welcher dir deine E-Mails sicher und auf Wunsch auch verschlüsselt weiterleitet."
+            },
+            "advantages": {
+                "title": "Welche Vorteile bringen wir mit?",
+                "text": "Mail-Forwarder bietet Ihnen eine Vielzahl von Vorteilen zu anderen E-Mail Services:",
+                    "domains": {
+                        "title": "Domains",
+                        "text": "Wir bieten mehrere Domains an. Zum Beispiel maxmustermann@trash.com oder maxmustermann@spaß.de."
+                    },
+                    "TOR": {
+                        "title": "TOR-Netzwerk",
+                        "text": "Mail-Forwarder ist auch unter folgender Onionadresse zu finden und ist mit NoScript kompatibel. So wird die volle Garantie des TOR-Netzwerkes gewährleistet."
+                    },
+                    "PGP": {
+                        "title": "PGP Verschlüsselung",
+                        "text": "Eine PGP Verschlüsselung wird zudem auch mitgeliefert. Man kann so die E-Mails mittels PGP ver-, als auch entschlüsseln."
+                    },
+                    "livesupport": {
+                        "title": "Livesupport",
+                        "text": "Man kann sich bei Fragen oder Problemen an unser Livesupport wenden."
+                    },
+                    "langsupport": {
+                        "title": "Mehrere Sprachen",
+                        "text": "Unsere Webseite ist mehrsprachig. Es können Deutsch, Englisch und Französisch gewählt werden."
+                    },
+                    "API": {
+                        "title": "API",
+                        "text": "Wollen Sie sich nicht ständig einloggen oder die Webseite nutzen? Dann haben wir unsere API für Sie."
+                    }
             }
         }
     }
