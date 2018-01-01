@@ -238,3 +238,6 @@ which is presumably licensed as follows:
 * replace-string https://github.com/sindresorhus/replace-string
    (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
    released under MIT License
+* dotenv https://github.com/motdotla/dotenv
+   (c) 2015, Scott Motte
+   released under BSD 2-clause "Simplified" License
