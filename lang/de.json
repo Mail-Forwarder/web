@@ -35,10 +35,9 @@
     },
     "sites": {
         "home": {
-            "whatarewecontainer": {
+            "whatarewe": {
                 "title": "Was sind wir?",
-                "text_1": "%name% ist ein Mailweiterleitungs-Service, welcher dir deine E-Mails sicher und auf Wunsch auch verschlüsselt weiterleitet.",
-                "text_2": "Yee"
+                "text": "%name% ist ein Mailweiterleitungs-Service, welcher dir deine E-Mails sicher und auf Wunsch auch verschlüsselt weiterleitet."
             }
         }
     }
