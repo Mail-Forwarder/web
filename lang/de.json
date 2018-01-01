@@ -42,7 +42,10 @@
         },
         "panel": {
             "login": {
-                "logo": "Logo"
+                "logo": "Logo",
+                "textbox": {
+                    "user": "Username/E-Mail"
+                }
             }
         }
     }
