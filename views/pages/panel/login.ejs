@@ -32,7 +32,17 @@
                                     <label for="password"><%= lang.sites.panel.login.textbox.password %></label>
                                 </div>
                             </div>
-                            <!-- TODO: Add register and reset password links -->
+                            <!-- Register and reset password links -->
+                            <div class="row">
+                                <!-- Register -->
+                                <span class="left">
+                                    <a href="/panel/register"><%= lang.sites.panel.login.register %></a>
+                                </span>
+                                <!-- Reset password -->
+                                <span class="right">
+                                    <a href="/panel/resetpw/start"><%= lang.sites.panel.login.resetpw %></a>
+                                </span>
+                            </div>
                             <!-- Submit button -->
                             <div class="row">
                                 <button class="btn waves-effect waves-light" type="submit" name="submit">
