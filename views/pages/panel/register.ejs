@@ -14,9 +14,17 @@
             <div class="row">
                 <div class="col s6 offset-s3">
                     <div class="card-panel grey lighten-4">
+                        <!-- TODO: Change color of inputs when create-home is merged to master -->
                         <!-- TODO: Change action-url when user system is created -->
                         <form method="post" action="#" autocomplete="off">
-
+                            <!-- Username textbox -->
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">perm_identity</i>
+                                    <input id="username" type="text" name="username" required />
+                                    <label for="username"><%= lang.sites.panel.register.textbox.username %></label>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>

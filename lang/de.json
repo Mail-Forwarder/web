@@ -52,7 +52,10 @@
                 "resetpw": "Passwort zurücksetzen"
             },
             "register": {
-                "logo": "Logo"
+                "logo": "Logo",
+                "textbox": {
+                    "username": "Nutzername"
+                }
             }
         }
     }
