@@ -59,7 +59,8 @@
                     "password": "Passwort",
                     "repeatpassword": "Passwort wiederholen"
                 },
-                "login": "Einloggen"
+                "login": "Einloggen",
+                "registerbtn": "Registrieren"
             }
         }
     }
