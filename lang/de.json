@@ -55,7 +55,8 @@
                 "logo": "Logo",
                 "textbox": {
                     "username": "Nutzername",
-                    "email": "E-Mail"
+                    "email": "E-Mail",
+                    "password": "Passwort"
                 }
             }
         }
