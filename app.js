@@ -58,6 +58,14 @@ app.get('/panel/login', function(req, res) {
     });
 });
 
+// Page: Panel/Register
+app.get('/panel/register', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/panel/register.ejs', {
+        lang: lang_de
+    });
+});
+
 // Service redirects
 app.get('/redirect/:service', function(req,res) {
     switch(req.params.service) {
