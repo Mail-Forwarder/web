@@ -54,7 +54,8 @@
             "register": {
                 "logo": "Logo",
                 "textbox": {
-                    "username": "Nutzername"
+                    "username": "Nutzername",
+                    "email": "E-Mail"
                 }
             }
         }
