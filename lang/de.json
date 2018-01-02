@@ -58,7 +58,8 @@
                     "email": "E-Mail",
                     "password": "Passwort",
                     "repeatpassword": "Passwort wiederholen"
-                }
+                },
+                "login": "Einloggen"
             }
         }
     }
