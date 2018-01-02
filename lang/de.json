@@ -56,7 +56,8 @@
                 "textbox": {
                     "username": "Nutzername",
                     "email": "E-Mail",
-                    "password": "Passwort"
+                    "password": "Passwort",
+                    "repeatpassword": "Passwort wiederholen"
                 }
             }
         }
