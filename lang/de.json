@@ -50,6 +50,9 @@
                 "loginbtn": "Einloggen",
                 "register": "Registrieren",
                 "resetpw": "Passwort zurücksetzen"
+            },
+            "register": {
+                "logo": "Logo"
             }
         }
     }
