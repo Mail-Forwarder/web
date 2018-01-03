@@ -8,6 +8,8 @@ var parse = function(lang) {
 
     // Replace vars
     rawLang = replaceString(rawLang, '%name%', lang.meta.name);
+    // TODO: Replace with correct onion address
+    rawLang = replaceString(rawLang, '%onionaddr%', 'sampleadress.onion');
 
     // JSONize and return
     var lang = JSON.parse(rawLang);

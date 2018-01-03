@@ -37,34 +37,34 @@
         "home": {
             "whatarewe": {
                 "title": "Was sind wir?",
-                "text": "%name% ist ein Mailweiterleitungs-Service, welcher dir deine E-Mails sicher und auf Wunsch auch verschlüsselt weiterleitet."
+                "text": "%name% ist ein E-Mailweiterleitungs-Service, welcher dir deine E-Mails sicher und auf Wunsch auch verschlüsselt weiterleitet."
             },
             "advantages": {
-                "title": "Welche Vorteile bringen wir mit?",
-                "text": "Mail-Forwarder bietet Ihnen eine Vielzahl von Vorteilen zu anderen E-Mail Services:",
+                "title": "Welche Vorteile haben wir?",
+                "text": "%name% hat viele Vorteile im Gegensatz zu anderen E-Mail Diensten:",
                     "domains": {
                         "title": "Domains",
-                        "text": "Wir bieten mehrere Domains an. Zum Beispiel maxmustermann@trash.com oder maxmustermann@spaß.de."
+                        "text": "Wir bieten mehrere Domains wie maxmustermann@mail-forwarder.space an."
                     },
                     "TOR": {
                         "title": "TOR-Netzwerk",
-                        "text": "Mail-Forwarder ist auch unter folgender Onionadresse zu finden und ist mit NoScript kompatibel. So wird die volle Garantie des TOR-Netzwerkes gewährleistet."
+                        "text": "Wir unterstützen das TOR-Netzwerk. Das heißt wiederum, dass wir auch unter %onionaddr% erreichbar sind."
                     },
                     "PGP": {
-                        "title": "PGP Verschlüsselung",
-                        "text": "Eine PGP Verschlüsselung wird zudem auch mitgeliefert. Man kann so die E-Mails mittels PGP ver-, als auch entschlüsseln."
+                        "title": "PGP",
+                        "text": "Deine E-Mails werden auf Wunsch bei der Weiterleitung mit PGP verschlüeeslt, sodass sie sicher bei dir angelangen."
                     },
                     "livesupport": {
                         "title": "Livesupport",
-                        "text": "Man kann sich bei Fragen oder Problemen an unser Livesupport wenden."
+                        "text": "Wir besitzen einen Livesupport, an den man sich bei Problemen wenden kann."
                     },
                     "langsupport": {
                         "title": "Mehrere Sprachen",
-                        "text": "Unsere Webseite ist mehrsprachig. Es können Deutsch, Englisch und Französisch gewählt werden."
+                        "text": "Es kann zwischen verschiedenen Sprachen ausgewählt werden. Momentan unterstützen wir Deutsch, Englisch und Französisch."
                     },
                     "API": {
                         "title": "API",
-                        "text": "Wollen Sie sich nicht ständig einloggen oder die Webseite nutzen? Dann haben wir unsere API für Sie."
+                        "text": "Wir besitzen eine API, die du problemlos benutzen kannst um deinen Account zu verwalten o. Ä. Aktionen vorzunehmen."
                     }
             }
         },
