@@ -47,3 +47,29 @@
 .line-height-3vw {
     line-height: 3vw;
 }
+
+/* input focus color */
+.input-field input[type=text]:focus + label {
+    color: #ff9800 !important;
+}
+.input-field input[type=password]:focus + label {
+    color: #ff9800 !important;
+}
+.input-field input[type=email]:focus + label {
+    color: #ff9800 !important;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ff9800 !important;
+    box-shadow: 0 1px 0 0 #ff9800 !important;
+}
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #ff9800 !important;
+    box-shadow: 0 1px 0 0 #ff9800 !important;
+}
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #ff9800 !important;
+    box-shadow: 0 1px 0 0 #ff9800 !important;
+}
+.input-field .prefix.active {
+    color: #ff9800 !important;
+}
