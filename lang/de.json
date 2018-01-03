@@ -13,7 +13,6 @@
     },
     "partials": {
         "navbar": {
-            "features": "Funktionen",
             "panel": "Accountverwaltung"
         },
         "footer": {
