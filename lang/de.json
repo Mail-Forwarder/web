@@ -23,7 +23,7 @@
                     "name": "Mail-Forwarder",
                     "links": {
                         "home": "Startseite",
-                        "sitemap": "Sitemap",
+                        "sitemap": "Seitenübersicht",
                         "credits": "Credits"
                     }
                 },
@@ -97,7 +97,7 @@
             "home": {
               "title": "Startseite",
               "points": {
-                "home": "Startseite"
+                "home": "Mail-Forwarder"
               }
             },
             "social": {
@@ -132,7 +132,7 @@
                 "help_API": "API",
                 "help_mails": "E-Mails",
                 "help_language": "Wie ändere ich die Sprache?",
-                "help_ticket": "Meine Frage konnte nicht beantwortet werden. Hier geht's zum Livesupport oder zum Ticketsystem."
+                "help_ticket": "Meine Frage konnte nicht beantwortet werden. Hier geht's zum Livesupport."
               }
             }
           }
