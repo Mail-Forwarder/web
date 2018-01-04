@@ -5,11 +5,72 @@
         <% include ../partials/navbar.ejs %>
 
           <div class="container">
-            <div class="">
-              <div class="">
-              <h4> <%= lang.sites.Sitemap.title %> </h4>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card-panel orange margin-top-3em">
+                        <span class="white-text">
+                          <h4 class="center-align"> <b> <%= lang.sites.Sitemap.title %> </b> </h4>
+                        </span>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="row">
+                <div class="white-text col s6">
+                    <div class="orange margin-top-05em">
+                      <ul class="collection with-header ">
+                        <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.home.title %></h5></li>
+                        <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.home.points.home %></h6></li>
+                      </ul>
+                    </div>
+                    <div class="orange margin-top-05em">
+                      <ul class="collection with-header ">
+                        <span class="flow-text">
+                          <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.social.title %></h5></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.social.points.discord %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.social.points.twitter %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.social.points.GitHub %></h6></li>
+                        </span>
+                      </ul>
+                    </div>
+                    <div class="orange margin-top-05em">
+                      <ul class="collection with-header ">
+                        <span class="flow-text">
+                          <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.Account.title %></h5></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Account.points.registration %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Account.points.login %></h6></li>
+                        </span>
+                      </ul>
+                    </div>
+                    <div class="orange margin-top-05em">
+                      <ul class="collection with-header ">
+                        <span class="flow-text">
+                          <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.Legales.title %></h5></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Legales.points.legales %></h6></li>
+                          <li class="collection-item orange"><h6 class="truncate"><%= lang.sites.Sitemap.categories.Legales.points.agreements %></h6></li>
+                          <li class="collection-item orange"><h6 class="truncate"><%= lang.sites.Sitemap.categories.Legales.points.privacy_policy %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Legales.points.Credits %></h6></li>
+                        </span>
+                      </ul>
+                    </div>
+                    <div class="orange margin-top-05em">
+                      <ul class="collection with-header">
+                        <span class="flow-text">
+                          <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.help_center.title %></h5></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_login %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_account %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_API %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_mails %></h6></li>
+                          <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_language %></h6></li>
+                        </span>
+                      </ul>
+                    </div>
+                    <div class="orange margin-top-05em">
+                      <ul class="collection">
+                        <li class="collection-item orange"><h5 class="flow-text"><%= lang.sites.Sitemap.categories.help_center.points.help_ticket %></h5></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
           </div>
 
         <% include ../partials/scripts.ejs %>
