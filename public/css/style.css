@@ -11,7 +11,9 @@
 .margin-top-3em {
     margin-top: 3em;
 }
+.margin-top-auto {
 
+}
 
 /* margin-lefts */
 .margin-left-05em {
@@ -73,3 +75,14 @@
 .input-field .prefix.active {
     color: #ff9800 !important;
 }
+
+/* Sticky Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }

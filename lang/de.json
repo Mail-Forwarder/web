@@ -89,6 +89,52 @@
                 "login": "Einloggen",
                 "registerbtn": "Registrieren"
             }
+        },
+        "Sitemap": {
+          "title": "Seitenübersicht",
+          "categories": {
+            "home": {
+              "title": "Startseite",
+              "points": {
+                "home": "Startseite"
+              }
+            },
+            "social": {
+              "title": "Soziales",
+              "points": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "GitHub": "GitHub"
+              }
+            },
+            "Account": {
+              "title": "Account",
+              "points": {
+                "registration": "Registration",
+                "login": "Einloggen"
+              }
+            },
+            "Legales": {
+              "title": "Legales",
+              "points": {
+                "legales": "Legales",
+                "agreements": "Vereinbarungen",
+                "privacy_policy": "Datenschutzerklärung",
+                "Credits": "Credits"
+              }
+            },
+            "help_center": {
+              "title": "Hilfezentrum",
+              "points": {
+                "help_login": "Login",
+                "help_account": "Account",
+                "help_API": "API",
+                "help_mails": "E-Mails",
+                "help_language": "Wie ändere ich die Sprache?",
+                "help_ticket": "Meine Frage konnte nicht beantwortet werden. Hier geht's zum Livesupport oder zum Ticketsystem."
+              }
+            }
+          }
         }
     }
 }
