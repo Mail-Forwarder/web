@@ -42,6 +42,14 @@ app.get('/', function(req, res) {
     });
 });
 
+// Page: Sitemap
+app.get('/sitemap', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/sitemap.ejs', {
+        lang: lang_de
+    });
+});
+
 // Page: Credits
 app.get('/credits', function(req, res) {
     // TODO: Add lang check / Add multiple languages
