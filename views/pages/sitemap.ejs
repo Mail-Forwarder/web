@@ -5,10 +5,13 @@
         <% include ../partials/navbar.ejs %>
 
           <div class="container">
+            <!-- The whole Sitemap -->
             <div class="row">
+              <!-- Cards -->
                 <div class="col s12">
                     <div class="card-panel orange margin-top-3em">
                         <span class="white-text">
+                          <!-- head-title of Sitemap -->
                           <h4 class="center-align"> <b> <%= lang.sites.Sitemap.title %> </b> </h4>
                         </span>
                     </div>
@@ -18,6 +21,7 @@
                 <div class="white-text col s6">
                     <div class="orange margin-top-05em">
                       <ul class="collection with-header ">
+                        <!-- Link to Homepage -->
                         <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.home.title %></h5></li>
                         <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.home.points.home %></h6></li>
                       </ul>
@@ -25,6 +29,7 @@
                     <div class="orange margin-top-05em">
                       <ul class="collection with-header ">
                         <span class="flow-text">
+                          <!-- Links of all our social media plattforms -->
                           <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.social.title %></h5></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.social.points.discord %></h6></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.social.points.twitter %></h6></li>
@@ -35,6 +40,7 @@
                     <div class="orange margin-top-05em">
                       <ul class="collection with-header ">
                         <span class="flow-text">
+                          <!-- Links for account administration -->
                           <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.Account.title %></h5></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Account.points.registration %></h6></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Account.points.login %></h6></li>
@@ -44,6 +50,7 @@
                     <div class="orange margin-top-05em">
                       <ul class="collection with-header ">
                         <span class="flow-text">
+                          <!-- Links for all the legales things -->
                           <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.Legales.title %></h5></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.Legales.points.legales %></h6></li>
                           <li class="collection-item orange"><h6 class="truncate"><%= lang.sites.Sitemap.categories.Legales.points.agreements %></h6></li>
@@ -55,6 +62,7 @@
                     <div class="orange margin-top-05em">
                       <ul class="collection with-header">
                         <span class="flow-text">
+                          <!-- Links for User-Help -->
                           <li class="collection-header orange"><h5> <%= lang.sites.Sitemap.categories.help_center.title %></h5></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_login %></h6></li>
                           <li class="collection-item orange"><h6><%= lang.sites.Sitemap.categories.help_center.points.help_account %></h6></li>
@@ -66,6 +74,7 @@
                     </div>
                     <div class="orange margin-top-05em">
                       <ul class="collection">
+                        <!-- What if the help above doesn't help? -->
                         <li class="collection-item orange"><h5 class="flow-text"><%= lang.sites.Sitemap.categories.help_center.points.help_ticket %></h5></li>
                       </ul>
                     </div>
