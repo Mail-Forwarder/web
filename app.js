@@ -78,7 +78,7 @@ app.get('/panel/register', function(req, res) {
 app.get('/redirect/:service', function(req,res) {
     switch(req.params.service) {
         case 'discord':
-            res.redirect('https://discord.gg/vNbahNE');
+            res.redirect('https://discord.gg/YaRKuak');
             break;
         case 'github':
             res.redirect('https://github.com/mail-forwarder');
