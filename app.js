@@ -58,6 +58,14 @@ app.get('/credits', function(req, res) {
     });
 });
 
+// Page: legales
+app.get('/legal', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/legales.ejs', {
+        lang: lang_de
+    });
+});
+
 // Page: Panel/Login
 app.get('/panel/login', function(req, res) {
     // TODO: Add lang check / Add multiple languages
@@ -70,6 +78,14 @@ app.get('/panel/login', function(req, res) {
 app.get('/panel/register', function(req, res) {
     // TODO: Add lang check / Add multiple languages
     res.render('pages/panel/register.ejs', {
+        lang: lang_de
+    });
+});
+
+// Page: Panel/Home
+app.get('/panel', function(req, res) {
+    // TODO: Add lang check / Add multiple languages
+    res.render('pages/panel/home.ejs', {
         lang: lang_de
     });
 });
