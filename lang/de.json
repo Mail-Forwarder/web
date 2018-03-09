@@ -14,7 +14,13 @@
     },
     "partials": {
         "navbar": {
-            "panel": "Accountverwaltung"
+            "panel": "Accountverwaltung",
+            "items": {
+                "login": "Einloggen",
+                "registration": "Registrieren",
+                "settings": "Einstellungen",
+                "":""
+            }
         },
         "footer": {
             "legal": "Legales",
@@ -69,6 +75,9 @@
             }
         },
         "panel": {
+            "partials": {
+
+            },
             "login": {
                 "logo": "Logo",
                 "textbox": {
@@ -89,6 +98,12 @@
                 },
                 "login": "Einloggen",
                 "registerbtn": "Registrieren"
+            },
+            "home": {
+              "username": "USERNAME",
+              "email": "E-MAIL",
+              "settings": "Einstellungen",
+              "logout": "Ausloggen"
             }
         },
         "Sitemap": {
