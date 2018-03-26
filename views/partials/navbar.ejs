@@ -2,16 +2,13 @@
 <nav>
     <div class="nav-wrapper orange darken-1">
         <a href="/" class="brand-logo"><%= lang.meta.name %></a>
-        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li>
-                <a href="/panel"><%= lang.partials.navbar.panel %></a>
-            </li>
-        </ul>
-        <ul class="side-nav" id="mobile-nav">
-            <li>
-                <a href="/panel"><%= lang.partials.navbar.panel %></a>
-            </li>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/panel"><%= lang.partials.navbar.panel %></a></li>
         </ul>
     </div>
 </nav>
+
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="/panel"><%= lang.partials.navbar.panel %></a></li>
+</ul>
