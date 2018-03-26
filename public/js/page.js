@@ -7,5 +7,10 @@ $(document).ready(function() {
         // Init side nav
         $('.sidenav').sidenav();
     };
-    //next code
+
+    //Check for existing tab class
+    if(!($('.tabs').length === 0)) {
+        //init tabs
+        $('.tabs').tabs();
+    };
 });
